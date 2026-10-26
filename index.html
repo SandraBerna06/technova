@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TechNova: dispositivos y accesorios con diseño minimalista.">
+    <meta name="keywords" content="tecnología, dispositivos, diseño, flexbox">
+    <meta name="author" content="Sandra Berná Zaplana">
+    <title>TechNova | Innovación y Diseño</title>
+
+    <!-- Google Fonts (Inter) y Font Awesome (iconos) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Normalize + CSS propio -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="wrapper" id="top">
+
+        <header class="header">
+            <a class="logo" href="#top"><i class="fa-solid fa-bolt"></i> TechNova</a>
+
+            <nav class="nav">
+                <ul class="menu">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li>
+                        <a href="#productos">Productos <i class="fa-solid fa-chevron-down"></i></a>
+                        <ul class="submenu">
+                            <li><a href="#productos">Dispositivos</a></li>
+                            <li><a href="#productos">Accesorios</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#noticias">Noticias</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-icons">
+                <a href="#" aria-label="Buscar"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <a href="#" aria-label="Carrito"><i class="fa-solid fa-bag-shopping"></i></a>
+            </div>
+        </header>
+
+        <div class="content">
+            <main class="main">
+                <section class="hero" id="inicio">
+                    <h1>Innovación en cada detalle.</h1>
+                    <p>Dispositivos diseñados para potenciar tu creatividad.</p>
+                    <a href="#productos" class="btn">Comprar ahora</a>
+                </section>
+
+                <div class="cards" id="productos">
+                    <article class="card">
+                        <img src="img/portatil.svg" alt="Ilustración de un portátil abierto">
+                        <div class="card-text">
+                            <h2>Rendimiento Pro</h2>
+                            <p>El chip más avanzado para profesionales exigentes.</p>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <img src="img/telefono.svg" alt="Ilustración de un teléfono inteligente">
+                        <div class="card-text">
+                            <h2>Diseño Infinito</h2>
+                            <p>Pantalla de borde a borde y estructura de titanio.</p>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <img src="img/reloj.svg" alt="Ilustración de un reloj inteligente">
+                        <div class="card-text">
+                            <h2>Salud Conectada</h2>
+                            <p>Tu compañero de entrenamiento y bienestar 24/7.</p>
+                        </div>
+                    </article>
+                </div>
+            </main>
+
+            <aside class="aside" id="noticias">
+                <h3>Noticias</h3>
+                <ul>
+                    <li><a href="#">Lanzamiento del nuevo OS 15</a></li>
+                    <li><a href="#">Evento de desarrolladores 2026</a></li>
+                    <li><a href="#">Programa de reciclaje global</a></li>
+                </ul>
+            </aside>
+        </div>
+
+        <footer class="footer">
+            <p>&copy; 2026 TechNova Inc.</p>
+            <div class="social">
+                <a href="#" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Elemento fijo: esquina inferior derecha -->
+    <a href="#top" class="btn-top" aria-label="Volver arriba"><i class="fa-solid fa-arrow-up"></i></a>
+</body>
+</html>
